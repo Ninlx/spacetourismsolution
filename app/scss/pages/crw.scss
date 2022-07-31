@@ -1,0 +1,99 @@
+@use "../utils" as *;
+
+#main .banner-crew {
+  &__left {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: em(25);
+    width: 100%;
+    height: 100vh;
+  }
+
+  &__title {
+    h2 {
+      font-family: var(--font-barlow-light);
+      font-size: em(24);
+      letter-spacing: em(2);
+
+      span {
+        font-family: var(--font-barlow-semibold) !important;
+        color: #858585 !important;
+      }
+    }
+  }
+
+  &__wrapper {
+    padding-top: em(55);
+  }
+
+  &__pos-title {
+    h1 {
+      font-family: var(--font-bellefair-regular);
+      font-size: em(24);
+      color: #858585 !important;
+    }
+  }
+
+  &__name {
+    h1 {
+      font-family: var(--font-bellefair-regular);
+      font-size: em(45);
+      line-height: 1.5;
+    }
+  }
+
+  &__desc {
+    p {
+      max-width: em(325);
+      font-family: var(--font-barlow-light);
+      font-size: em(18.75);
+      letter-spacing: em(0.25);
+      line-height: 1.5;
+      color: #858585 !important;
+    }
+  }
+
+  &__pagination {
+    padding-top: em(75);
+    padding-bottom: 10%;
+  }
+
+  &__round {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: em(20);
+  }
+
+  &__pagination-links {
+    width: em(15);
+    height: em(15);
+    border-radius: 50%;
+    display: block;
+    background-color: #858585;
+  }
+
+  &__pagination-links[aria-current="page"] {
+    background-color: whitesmoke;
+  }
+
+  &__right {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__person {
+    height: auto;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

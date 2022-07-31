@@ -1,0 +1,131 @@
+@use "../utils" as *;
+
+#main .banner-dstntn {
+  &__left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: em(25);
+    width: 100%;
+    height: 100vh;
+  }
+
+  &__left-content {
+    margin-top: em(140);
+
+    h1 {
+      font-family: var(--font-barlow-light);
+      font-size: em(24);
+      letter-spacing: em(2);
+
+      span {
+        font-family: var(--font-barlow-semibold) !important;
+        color: #858585 !important;
+      }
+    }
+  }
+
+  &__image {
+    width: em(350);
+    height: em(350);
+    margin-left: em(55);
+    overflow: visible;
+  }
+
+  &__right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  &__right-content {
+    max-width: em(390);
+    margin-top: em(140);
+  }
+
+  &__links {
+    font-family: var(--font-barlow-light);
+    font-size: em(20);
+    letter-spacing: em(0.25);
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: calc(0% - 40%);
+      left: 0;
+      width: 100%;
+      height: em(2.25);
+      background-color: whitesmoke;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: all 300ms;
+      transition-property: transform;
+      transition-timing-function: cubic-bezier(0.175, 0.885, 0.55, 1.275);
+    }
+
+    &:hover::after {
+      transform: scaleX(100%);
+      transform-origin: left;
+    }
+  }
+
+  &__links[aria-current="page"] {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: calc(0% - 40%);
+      left: 0;
+      width: 100%;
+      height: em(2.25);
+      transform: scaleX(100%);
+      background-color: whitesmoke;
+    }
+  }
+
+  &__title {
+    h1 {
+      font-family: var(--font-bellefair-regular);
+      font-size: em(90);
+    }
+  }
+
+  &__desc {
+    p {
+      font-family: var(--font-barlow-light);
+      font-size: em(18);
+      letter-spacing: em(0.25);
+      line-height: 1.5;
+    }
+  }
+
+  &__info-left {
+    h4 {
+      font-family: var(--font-barlow-light);
+      font-size: em(16);
+    }
+
+    h3 {
+      font-family: var(--font-bellefair-regular);
+      font-size: em(26);
+    }
+  }
+
+  &__info-right {
+    h4 {
+      font-family: var(--font-barlow-light);
+      font-size: em(16);
+    }
+
+    h3 {
+      font-family: var(--font-bellefair-regular);
+      font-size: em(26);
+    }
+  }
+}
