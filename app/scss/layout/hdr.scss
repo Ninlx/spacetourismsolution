@@ -43,10 +43,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: em(30);
+    padding-top: em(35);
     padding-right: em(165);
-    padding-bottom: em(30);
-    padding-left: em(123);
+    padding-bottom: em(35);
+    padding-left: em(122);
     margin: 0;
     overflow: hidden;
     z-index: 1;
@@ -60,7 +60,6 @@
       height: em(96);
       background: rgba(255, 255, 255, 0.04);
       backdrop-filter: blur(81.5485px);
-      filter: blur(81.5485px);
       z-index: -1;
     }
   }
@@ -76,11 +75,11 @@
   &__links {
     cursor: none;
     position: relative;
-    font-family: var(--font-barlow-regular);
+    font-family: var(--barlow-condensed-reg);
     font-size: em(16);
     letter-spacing: em(2.7);
     text-transform: uppercase;
-    color: var(--white);
+    color: var(--white) !important;
 
     span {
       font-weight: bold;
@@ -94,13 +93,13 @@
       left: 0;
       width: 100%;
       height: em(3);
-      display: inline-block;
+      opacity: 0.5;
       transform: scaleX(0);
       transform-origin: right;
       background: var(--white);
       transition: all 300ms;
       transition-property: transform;
-      transition-timing-function: cubic-bezier(0.225, 0.795, 0.55, 1.275);
+      transition-timing-function: var(--easeinback);
     }
 
     &:hover::after {
@@ -110,15 +109,8 @@
   }
 
   &__links[aria-current="page"] {
-    position: relative;
-
     &::after {
-      content: "";
-      position: absolute;
-      bottom: calc(0% - 32px);
-      left: 0;
-      width: 100%;
-      height: em(3);
+      opacity: 1;
       transform: scaleX(100%);
       background: var(--white);
     }

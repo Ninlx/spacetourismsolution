@@ -12,13 +12,13 @@
 
   &__title {
     h2 {
-      font-family: var(--font-barlow-light);
+      font-family: var(--barlow-condensed-reg);
       font-size: em(24);
       letter-spacing: em(2);
 
       span {
-        font-family: var(--font-barlow-semibold) !important;
-        color: #858585 !important;
+        font-family: var(--barlow-condensed-reg) !important;
+        color: var(--primary) !important;
       }
     }
   }
@@ -29,15 +29,15 @@
 
   &__pos-title {
     h1 {
-      font-family: var(--font-bellefair-regular);
+      font-family: var(--bellefair);
       font-size: em(24);
-      color: #858585 !important;
+      color: var(--primary) !important;
     }
   }
 
   &__name {
     h1 {
-      font-family: var(--font-bellefair-regular);
+      font-family: var(--bellefair);
       font-size: em(45);
       line-height: 1.5;
     }
@@ -46,11 +46,11 @@
   &__desc {
     p {
       max-width: em(325);
-      font-family: var(--font-barlow-light);
+      font-family: var(--barlow-condensed-reg);
       font-size: em(18.75);
       letter-spacing: em(0.25);
       line-height: 1.5;
-      color: #858585 !important;
+      color: var(--primary) !important;
     }
   }
 
@@ -71,11 +71,16 @@
     height: em(15);
     border-radius: 50%;
     display: block;
-    background-color: #858585;
+    opacity: 0.17;
+    background-color: var(--white);
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
 
   &__pagination-links[aria-current="page"] {
-    background-color: whitesmoke;
+    opacity: 1;
   }
 
   &__right {

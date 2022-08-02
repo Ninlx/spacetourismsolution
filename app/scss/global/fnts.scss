@@ -1,109 +1,43 @@
 @font-face {
-  font-family: "3D Sports Bar";
-  src: url("/font/3D\ Sports\ Bar.otf");
-  src: url("/font/3D\ Sports\ Bar.otf") format("embedded-opentype"),
-    url("/font/3D\ Sports\ Bar.otf") format("woff"),
-    url("/font/3D\ Sports\ Bar.otf") format("truetype"),
-    url("/font/3D\ Sports\ Bar.otf") format("svg");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
   font-family: "Barlow";
-  src: url("/font/Barlow-Regular.ttf");
-  src: url("/font/Barlow-Regular.ttf") format("embedded-opentype"),
-    url("/font/Barlow-Regular.ttf") format("woff"),
-    url("/font/Barlow-Regular.ttf") format("truetype"),
-    url("/font/Barlow-Regular.ttf") format("svg");
+  src: url("/font/Barlow.ttf");
+  src: url("/font/Barlow.ttf") format("embedded-opentype"),
+    url("/font/Barlow.ttf") format("woff"),
+    url("/font/Barlow.ttf") format("truetype"),
+    url("/font/Barlow.ttf") format("svg");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Barlow Black";
-  src: url("/font/BarlowCondensed-Black.ttf");
-  src: url("/font/BarlowCondensed-Black.ttf") format("embedded-opentype"),
-    url("/font/BarlowCondensed-Black.ttf") format("woff"),
-    url("/font/BarlowCondensed-Black.ttf") format("truetype"),
-    url("/font/BarlowCondensed-Black.ttf") format("svg");
+  font-family: "Barlow Condensed Reg";
+  src: url("/font/Barlow\ Condensed\ Reg.ttf");
+  src: url("/font/Barlow\ Condensed\ Reg.ttf") format("embedded-opentype"),
+    url("/font/Barlow\ Condensed\ Reg.ttf") format("woff"),
+    url("/font/Barlow\ Condensed\ Reg.ttf") format("truetype"),
+    url("/font/Barlow\ Condensed\ Reg.ttf") format("svg");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Barlow Bold";
-  src: url("/font/BarlowCondensed-Bold.ttf");
-  src: url("/font/BarlowCondensed-Bold.ttf") format("embedded-opentype"),
-    url("/font/BarlowCondensed-Bold.ttf") format("woff"),
-    url("/font/BarlowCondensed-Bold.ttf") format("truetype"),
-    url("/font/BarlowCondensed-Bold.ttf") format("svg");
+  font-family: "Barlow Condensed Bold";
+  src: url("/font/Barlow\ Condensed\ Bold.ttf");
+  src: url("/font/Barlow\ Condensed\ Bold.ttf") format("embedded-opentype"),
+    url("/font/Barlow\ Condensed\ Bold.ttf") format("woff"),
+    url("/font/Barlow\ Condensed\ Bold.ttf") format("truetype"),
+    url("/font/Barlow\ Condensed\ Bold.ttf") format("svg");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Barlow Extra Bold";
-  src: url("/font/BarlowCondensed-ExtraBold.ttf");
-  src: url("/font/BarlowCondensed-ExtraBold.ttf") format("embedded-opentype"),
-    url("/font/BarlowCondensed-ExtraBold.ttf") format("woff"),
-    url("/font/BarlowCondensed-ExtraBold.ttf") format("truetype"),
-    url("/font/BarlowCondensed-ExtraBold.ttf") format("svg");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Barlow Light";
-  src: url("/font/BarlowCondensed-Light.ttf");
-  src: url("/font/BarlowCondensed-Light.ttf") format("embedded-opentype"),
-    url("/font/BarlowCondensed-Light.ttf") format("woff"),
-    url("/font/BarlowCondensed-Light.ttf") format("truetype"),
-    url("/font/BarlowCondensed-Light.ttf") format("svg");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Barlow Medium";
-  src: url("/font/BarlowCondensed-Medium.ttf");
-  src: url("/font/BarlowCondensed-Medium.ttf") format("embedded-opentype"),
-    url("/font/BarlowCondensed-Medium.ttf") format("woff"),
-    url("/font/BarlowCondensed-Medium.ttf") format("truetype"),
-    url("/font/BarlowCondensed-Medium.ttf") format("svg");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Barlow Regular";
-  src: url("/font/BarlowCondensed-Regular.ttf");
-  src: url("/font/BarlowCondensed-Regular.ttf") format("embedded-opentype"),
-    url("/font/BarlowCondensed-Regular.ttf") format("woff"),
-    url("/font/BarlowCondensed-Regular.ttf") format("truetype"),
-    url("/font/BarlowCondensed-Regular.ttf") format("svg");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Barlow Semi Bold";
-  src: url("/font/BarlowCondensed-SemiBold.ttf");
-  src: url("/font/BarlowCondensed-SemiBold.ttf") format("embedded-opentype"),
-    url("/font/BarlowCondensed-SemiBold.ttf") format("woff"),
-    url("/font/BarlowCondensed-SemiBold.ttf") format("truetype"),
-    url("/font/BarlowCondensed-SemiBold.ttf") format("svg");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Bellefair Regular";
-  src: url("/font/Bellefair-Regular.ttf");
-  src: url("/font/Bellefair-Regular.ttf") format("embedded-opentype"),
-    url("/font/Bellefair-Regular.ttf") format("woff"),
-    url("/font/Bellefair-Regular.ttf") format("truetype"),
-    url("/font/Bellefair-Regular.ttf") format("svg");
+  font-family: "Bellefair";
+  src: url("/font/Bellefair.ttf");
+  src: url("/font/Bellefair.ttf") format("embedded-opentype"),
+    url("/font/Bellefair.ttf") format("woff"),
+    url("/font/Bellefair.ttf") format("truetype"),
+    url("/font/Bellefair.ttf") format("svg");
   font-style: normal;
   font-weight: normal;
 }
